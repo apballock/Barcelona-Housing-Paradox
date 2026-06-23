@@ -23,7 +23,7 @@ None of these arrived analysis-ready. The INCASÒL spreadsheets carried metadata
 
 ## Pipeline
 
-**`barcelona_housing_analysis.ipynb`** covers data acquisition through analysis:
+[`barcelona_housing_analysis.ipynb`](./barcelona_housing_analysis.ipynb) covers data acquisition through analysis:
 
 - Loading and cleaning the INCASÒL workbook, including handling header rows embedded mid-file, an inconsistent `'nd'` missing-value code, and mixed string/integer year columns
 - Reshaping from wide format (years as columns) to long format for time-series analysis, using `melt`
@@ -36,7 +36,7 @@ Each transformation step is annotated with the reasoning behind it, not just the
 
 ## Dashboard
 
-**`barcelona-housing-paradox-graphics.pdf`** (exported from Power BI) presents the analysis across five pages:
+[`barcelona-housing-paradox-graphics.pdf`](./barcelona-housing-paradox-graphics.pdf) (exported from Power BI) presents the analysis across five pages:
 
 1. **The Crisis in Numbers** — citywide KPIs and the 2014–2025 rent trend
 2. **The Paradox** — INCASÒL vs Idealista price divergence, and rent before/after the regulation by neighbourhood
